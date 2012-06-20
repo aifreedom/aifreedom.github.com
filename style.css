@@ -35,6 +35,14 @@ body {
     width: 70%;
 }
 
+#footer {
+    width: 100%;
+}
+
+#footer p {
+    font-size: 13px;
+}
+
 #sidebar {
     float:right;
     margin:20px auto;
