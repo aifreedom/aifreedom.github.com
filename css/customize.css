@@ -1,0 +1,91 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.container {
+    width: 964px;
+}
+
+.nav {
+    margin: 20px 0 0 0;
+    padding: 0 0 0 10px;
+}
+
+.nav-tabs > li {
+    padding-left: 5px;
+}
+
+.nav-tabs > li > a {
+    line-height: 14px;
+    color: #FFF;
+    background-color: #3E5590;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus{
+    color: #FFF;
+    background-color: #455FA1;
+    border: 1px solid transparent;
+}
+
+.wrap {
+    background-color: #FFF;
+    border: solid #DDD;
+    border-width: 0 1px 1px 1px;
+    padding-bottom: 7px;
+}
+
+.main {
+    padding: 0 0 0 10px;
+}
+
+.main h3 {
+    color: #FFF;
+    background-color: #455FA1;
+    margin-left: -10px;
+    padding-left: 10px;
+}
+
+.sidebar {
+    border: 1px solid #666;
+    background-color: #455FA1;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    color: #FFF
+}
+
+.profile {
+    border: 1px solid #FFF;
+    padding: 10px;
+}
+
+.profile a {
+    color: #FFF;
+}
+
+.profile > .picture {
+    margin: 0 0 10px;
+}
+
+.profile [class^="icon-"],
+.profile [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.profile > .address {
+    margin-top: 8px;
+}
+
+.profile > .name {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.resume .entry + ul {
+    margin-top: -10px;
+}
